@@ -1,9 +1,4 @@
-# HuxBlog Boilerplate
-
-##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
-
-#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
-
-#### [View Live Hux Blog &rarr;](http://huangxuan.me)
-
-## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
+#####fork [Hux](http://huangxuan.me/huxblog-boilerplate/) 感谢！
+---
+1. 重新自定义了样式；
+2. 移动端打开时，底部展示小头像；

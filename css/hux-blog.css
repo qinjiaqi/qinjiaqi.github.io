@@ -495,23 +495,30 @@ pre code {
   margin: 40px auto;
   /*max-width: 950px;*/
   background: #fff;
-  text-align: center;
+  text-align: left;
   box-shadow: 5px 5px 25px #dadada;
+  padding:15px;
 }
 .post-preview > a {
   transition: all .1s;
   color: #404040;
 }
-/*.post-preview > a:hover,
+.post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #fff;
-}*/
+}
 .post-preview > a > .post-title {
   font-size: 21px;
   line-height: 1.3;
   margin-top: 10px;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
+}
+.post-title::before{
+  content: "|";
+  color: #077969;
+  padding-right: 5px;
+  float: left;
+  margin-top: -2px;
 }
 .post-preview > a > .post-subtitle {
   font-size: 15px;
@@ -519,6 +526,7 @@ pre code {
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
+  padding-left: 2em;
 }
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -526,22 +534,24 @@ pre code {
   font-size: 16px;
   font-style: italic;
   margin-top: 0;
-  float: right;
+  text-align: right;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
   color: #404040;
 }
+.post-meta  a.readmore{
+  color: #000;
+}
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
   color: #0085a1;
-  text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
     font-size: 26px;
     line-height: 1.3;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
   .post-preview > a > .post-subtitle {
     font-size: 16px;

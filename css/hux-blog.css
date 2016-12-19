@@ -58,6 +58,9 @@ body {
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
+  background: url(../img/home_bg.png);
+  background-repeat: repeat;
+  background-size: auto;
 }
 p {
   margin: 30px 0;
@@ -426,23 +429,26 @@ pre code {
      */
   font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
-  font-size: 18px;
-  line-height: 1.1;
+  line-height: 4;
   display: block;
   font-weight: 300;
   margin: 10px 0 0;
+  font-size: 20px;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
   }
+  .intro-header .site-heading .subheading{
+    font-size: 48px;
+  }
 }
 .intro-header .post-heading h1 {
   font-size: 30px;
   margin-bottom: 24px;
 }
-.intro-header .post-heading .subheading,
+
 .intro-header .post-heading .meta {
   line-height: 1.1;
   display: block;
@@ -454,7 +460,7 @@ pre code {
      */
   font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.4;
   font-weight: normal;
   margin: 10px 0 30px;
@@ -474,24 +480,37 @@ pre code {
     font-size: 55px;
   }
   .intro-header .post-heading .subheading {
-    font-size: 30px;
+    font-size: 48px;
   }
   .intro-header .post-heading .meta {
     font-size: 20px;
   }
 }
+.post-container{
+  margin-top: 30px;
+}
+.post-preview{
+  position: relative;
+  padding: 0 20px;
+  margin: 40px auto;
+  /*max-width: 950px;*/
+  background: #fff;
+  text-align: center;
+  box-shadow: 5px 5px 25px #dadada;
+}
 .post-preview > a {
+  transition: all .1s;
   color: #404040;
 }
-.post-preview > a:hover,
+/*.post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
-}
+  color: #fff;
+}*/
 .post-preview > a > .post-title {
   font-size: 21px;
   line-height: 1.3;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 8px;
 }
 .post-preview > a > .post-subtitle {
@@ -503,10 +522,11 @@ pre code {
 }
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
-  color: #808080;
+  color: #333;
   font-size: 16px;
   font-style: italic;
   margin-top: 0;
+  float: right;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
@@ -717,7 +737,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
-/* Hux add tags support */
+/* Hux add tags support post-preview*/
 .tags {
   margin-bottom: -5px;
 }
@@ -847,6 +867,16 @@ body {
     font-size: 18px;
   }
 }
+hr.style-one{
+  border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #14d7f1, #c8f23d, #f6507d);
+    /*background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);*/
+    margin-bottom: 70px;
+}
 /* Tags support End*/
 /* Hux make all img responsible in post-container */
 .post-container img {
@@ -950,4 +980,62 @@ body {
 }
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
+}
+@media only screen and (min-width: 768px){
+  .author{
+    display: none;
+  }
+}
+.author{
+  position: relative;
+  width: 100%;
+  margin-top: 5rem;
+}
+.author-img{
+  position: absolute;
+  z-index: 2;
+  top: -40px;
+  left: 50%;
+  display: block;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
+  padding: 4px;
+  border-radius: 100%;
+  background: #fff;
+  box-shadow: #000 0 0 0 2px;
+}
+.author-img .role-img{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(../img/avatar-qjq.jpg);
+}
+.author-desc{
+  padding: 4.6rem 1.6rem 1.6rem;
+  text-align: center;
+}
+.author-desc a{
+  font-size: 1.6rem;
+  color: #999;
+}
+.author-meta{
+  font-size: 1.4rem;
+  line-height: 1;
+  /*display: inline-block;*/
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  word-wrap: break-word;
+}
+.author-meta span{
+  margin-right: 1rem;
+  color: #9eabb3;
 }

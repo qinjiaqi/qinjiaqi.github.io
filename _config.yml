@@ -1,22 +1,22 @@
 # Site settings
-title: Your Blog
-SEOTitle: 你的博客 | Your Blog
-header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: ""
-keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+title: QJQ
+SEOTitle: QJQ|看你像看云
+header-img: img/home_bg_cloud.jpg
+email: 1073998234@qq.com
+description: "秦佳奇的博客"
+keyword: "前端博客"
+url: "http://seeu.cloud"              # your host, for absolute URL
+# baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+# weibo_username:     huxpro
+zhihu_username:     qinjqi
+github_username:    qinjiaqi
 #twitter_username:  huxpro
-facebook_username:  huxpro
+facebook_username:  qinjiaqi
 
 
 
@@ -68,8 +68,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "无事便思有闲杂念想否。有事便思有粗浮意气否。得意便思有骄矜辞色否。 失意便思有怨望情怀否。时时检点，到得从多入少、从有入无处，才是学问的真消息。 ——洪应明 《菜根谭》"
+sidebar-avatar: /img/myman.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 

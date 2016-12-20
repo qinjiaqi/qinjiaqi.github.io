@@ -531,7 +531,7 @@ pre code {
 }
 .post-title::before{
   content: "|";
-  color: #077969;
+  color: #e12828;
   padding-right: 5px;
   float: left;
   margin-top: -2px;

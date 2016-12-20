@@ -102,6 +102,7 @@ blockquote {
   font-style: italic;
   font-size: 0.95em;
   margin: 20px 0 20px;
+  border-left: 5px solid #e12828;
 }
 blockquote p {
   margin: 0;
@@ -491,13 +492,28 @@ pre code {
 }
 .post-preview{
   position: relative;
-  padding: 0 20px;
+  /*padding: 0 20px;*/
   margin: 40px auto;
   /*max-width: 950px;*/
-  background: #fff;
+  /*background: #fff;*/
   text-align: left;
-  box-shadow: 5px 5px 25px #dadada;
-  padding:15px;
+  box-shadow: -5px 6px 2px #dadada;
+  /*padding:15px;*/
+  background: linear-gradient(-150deg, transparent 1.5em, #fff9f5 0);
+  padding: 2em;
+}
+.post-preview::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1.73em;
+    height: 3em;
+    background: linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,.2) 0, rgba(0,0,0,.4)) 100% 0 no-repeat;
+    transform: translateY(-1.3em) rotate(-30deg);
+    transform-origin: bottom right;
+    border-bottom-left-radius: .5em;
+    box-shadow: -.2em .2em .3em -.1em rgba(0,0,0,.15);
 }
 .post-preview > a {
   transition: all .1s;
@@ -531,7 +547,7 @@ pre code {
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
   color: #333;
-  font-size: 16px;
+  font-size: 10px;
   font-style: italic;
   margin-top: 0;
   text-align: right;
@@ -1027,6 +1043,11 @@ hr.style-one{
   background-position: center center;
   background-size: cover;
   background-image: url(../img/avatar-qjq.jpg);
+  -webkit-animation:circle 5s infinite linear;
+}
+@-webkit-keyframes circle{
+  0%{ transform:rotate(0deg); }
+  100%{ transform:rotate(360deg); }
 }
 .author-desc{
   padding: 4.6rem 1.6rem 1.6rem;

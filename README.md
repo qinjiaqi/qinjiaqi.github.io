@@ -1,6 +1,6 @@
-1. 自定义样式
+### 自定义样式
 
-2. 增加网易云音乐自选模块
+### 增加网易云音乐自选模块
 
 >博客主题fork自[Hux](http://huangxuan.me/huxblog-boilerplate/)，在UI 样式上做了较大的改动。
 

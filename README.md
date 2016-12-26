@@ -3,7 +3,7 @@
 博客主题fork自[Hux](http://huangxuan.me/huxblog-boilerplate/)，在UI 样式上做了较大的改动。
 
 ## 增加网易云音乐自选模块
-![](http://www.soft568.com/UploadFile/2015-6/2015061512054749.jpg)
+![](img/net_music.png)
 
 作为一个重度音乐患者，写文可以不配图，但是不能不配音乐啊。遂添加了网易云模块。这里要感谢网易云的分享机制，对开发者非常友好：
 

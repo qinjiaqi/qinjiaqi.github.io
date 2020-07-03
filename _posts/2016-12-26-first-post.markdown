@@ -4,7 +4,7 @@ title:      "首记"
 subtitle:   ""
 date:       2016-12-26 15:20
 music-id:    22636871
-author:     "QJQ"
+author:     ""
 header-img: ""
 tags:
     - 生活

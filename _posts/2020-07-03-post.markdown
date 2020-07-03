@@ -4,7 +4,7 @@ title:      "Test"
 subtitle:   ""
 date:       2020-07-04 15:20
 music-id:    22636871
-author:     "QJQ"
+author:     ""
 header-img: ""
 tags:
     - 学习

@@ -4,7 +4,7 @@ title:      "活动"
 subtitle:   ""
 date:       2020-07-03 15:20
 music-id:    22636871
-author:     "QJQ"
+author:     ""
 header-img: ""
 tags:
     - 生活

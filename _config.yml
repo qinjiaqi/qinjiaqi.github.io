@@ -1,7 +1,7 @@
 # Site settings
 title: Yi Zhang
 SEOTitle: Yi Zhang
-header-img: img/home_bg_cloud.jpg
+header-img: img/team.jpg
 email: 1073998234@qq.com
 description: "Yi Zhang"
 keyword: "四川大学张意"
@@ -13,10 +13,10 @@ url: "http://neversettle.pro"              # your host, for absolute URL
 # SNS settings
 RSS: false
 # weibo_username:     huxpro
-zhihu_username:     qinjqi
-github_username:    qinjiaqi
-#twitter_username:  huxpro
-facebook_username:  qinjiaqi
+# zhihu_username:     qinjqi
+# github_username:    qinjiaqi
+# #twitter_username:  huxpro
+# facebook_username:  qinjiaqi
 
 
 

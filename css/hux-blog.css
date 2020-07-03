@@ -1041,8 +1041,8 @@ hr.style-one{
   height: 100%;
   border-radius: 100%;
   background-position: center center;
-  background-size: cover;
-  /* background-image: url(../img/zhangyi.png); */
+  background-size: contain;
+  background-image: url(../img/zhangyi.png);
   /* -webkit-animation:circle 5s infinite linear; */
 }
 @-webkit-keyframes circle{

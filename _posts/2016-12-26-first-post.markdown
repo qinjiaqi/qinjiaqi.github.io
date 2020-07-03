@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "红红火火的首记"
+title:      "首记"
 subtitle:   ""
 date:       2016-12-26 15:20
 music-id:    22636871

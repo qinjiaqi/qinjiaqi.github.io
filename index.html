@@ -24,8 +24,8 @@ description: "See u like watching the clouds"
         </div> -->
     </a>
     <div class="post-meta">
-        <div>{{ post.date | date: "%B %-d, %Y" }}</div>
-        <div><a href="{{ post.url | prepend: site.baseurl }}" class="readmore">read more</a></div>
+        <div>{{ post.date | date: "%B %-d, %Y" }}  <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">read more</a></div>
+        <!-- <div><a href="{{ post.url | prepend: site.baseurl }}" class="readmore">read more</a></div> -->
     </div>
 </div>
 {% endfor %}

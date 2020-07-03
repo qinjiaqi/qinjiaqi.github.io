@@ -1026,10 +1026,10 @@ hr.style-one{
   overflow: hidden;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-left: -40px;
-  padding: 4px;
+  padding: 1px;
   border-radius: 100%;
   background: #fff;
   box-shadow: #000 0 0 0 2px;
@@ -1041,7 +1041,7 @@ hr.style-one{
   height: 100%;
   border-radius: 100%;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-image: url(../img/zhangyi.png);
   /* -webkit-animation:circle 5s infinite linear; */
 }

@@ -1,0 +1,150 @@
+---
+layout: page
+title: "Group Members "
+description: "DeepImaging Group"
+header-img: "img/cloud2.jpg"
+---
+
+<!-- Language Selector -->
+<!-- <select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英语 English </option>
+</select> -->
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    <!-- <blockquote style="font-weight:bold">
+        写写代码，玩玩吉他，看看书。<br>
+        经常正经，偶尔神棍。<br>
+        不是个有趣的人。<br>
+        非喜勿近。
+    </blockquote>
+
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=441442&auto=1&height=66"></iframe>
+
+    <p style="text-align:justify-content;">
+        初级前端工程师一枚，目前就职魔都一家游戏公司--InitialWorld。<br>
+        上班不挤公交不挤地铁，穿过两条河，几亩菜畦，一片芦苇荡，想跑~跑，想走~走!<br>
+    </p>
+    <p style="text-align:justify-content;">
+        工作偏于移动端，没有复杂的兼容性，CSS3用的飞起。<br>
+        干活麻利，so 有时间学自己喜欢的技术：Node.js/Vue.js/D3.js/webGL!<br>
+    </p>
+    <p style="text-align:justify-content;">
+        年方23，纳音剑锋金，如白虎渡江。<br>
+        每天醒来有梦想有音乐，清楚要走向的山岗!<br>
+    </p> -->
+
+    <h3>Group Members</h3>
+    <h4>Doctor</h4>
+    <p>
+       2020级： 夏文军  陆泽欣  王志文  余慧
+    </p>
+    <h4>Master</h4>
+    <p>
+       2017级： 包鹏 邵志敏 冉茂松 杨康 <br>
+       2018级： 黄永强 陆泽欣 刘松 袁针云 秦佳奇 <br>
+       2019级： 乔一凡 倪家辉 汪涛  牟航 <br>
+       2020级：    
+    </p>
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    <blockquote>
+        Designer or Engineer, things in between.
+    </blockquote>
+
+    <p>
+        Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.
+    </p>
+
+    <p>
+    If you want to live your life in a creative way, as an artist, you have to not look back too much. You have to be willing to take whatever you’ve done and whoever you were and throw them away.
+    </p>
+
+    <p style="text-align:right;">
+    -- Steve Jobs
+    </p>
+
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    function onLanChange(index){
+        if(index == 0){
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }else{
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        }
+    }
+    onLanChange(0);
+</script>
+
+
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<div class="comment">
+    <div class="ds-thread"
+    {% if site.duoshuo_username == "huxblog" %}
+        data-thread-id="1187623191091085319"
+    {% else %}
+        data-thread-key="{{site.duoshuo_username}}/about"
+    {% endif %}
+
+    data-title="{{page.title}}"
+    data-url="{{site.url}}/about/"></div>
+</div>
+<!-- 多说评论框 end -->
+
+<!-- Duoshuo hacking -->
+<input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User hacking by Hux
+    var _user = document.getElementById('dsUser').value;
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}

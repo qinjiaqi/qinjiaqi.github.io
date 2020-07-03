@@ -68,7 +68,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "无事便思有闲杂念想否。有事便思有粗浮意气否。得意便思有骄矜辞色否。 失意便思有怨望情怀否。时时检点，到得从多入少、从有入无处，才是学问的真消息。 ——洪应明 《菜根谭》"
+sidebar-about-description: "你若是那含泪的射手，我就是那只决心不再闪躲的白鸟"
 sidebar-avatar: /img/zhangyi.png     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -81,20 +81,20 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 # Friends
 friends: [
-    {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    }
+    # {
+    #     title: "Hux Blog",
+    #     href: "http://huangxuan.me"
+    # },{
+    #     title: "Foo",
+    #     href: "#"
+    # },{
+    #     title: "Bar",
+    #     href: "#"
+    # },{
+    #     title: "Example Friends",
+    #     href: "#"
+    # },{
+    #     title: "It helps SEO",
+    #     href: "#"
+    # }
 ]

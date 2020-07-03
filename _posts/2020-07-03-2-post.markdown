@@ -1,0 +1,14 @@
+---
+layout:     post
+title:      "活动"
+subtitle:   "活动描述"
+date:       2020-07-03 15:20
+music-id:    22636871
+author:     "QJQ"
+header-img: ""
+tags:
+    - 生活
+---
+## test2
+
+冉茂松发表了一篇IF=8.88的paper
